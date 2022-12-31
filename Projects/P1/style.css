@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  cursor: default;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+
+/* elemente */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: black 2px 5px;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
+.number {
+  background: #eee;
+  color: #333;
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  box-shadow: black 2px 5px;
+  text-shadow: black 2px 5px;
+}
+
+.between {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+  box-shadow: black 2px 5px;
+}
+
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 1.5rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: black 2px 5px;
+}
+
+.btn:hover {
+  background-color: rgb(86, 80, 80);
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+
+.message {
+  margin-bottom: 8rem;
+  height: 3rem;
+  text-shadow: black 2px 3px;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+  text-shadow: black 2px 3px;
+}
+
+/* footer */
+footer {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+footer p:hover {
+  transform: translateY(-4px);
+  transition: 0.4s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
